@@ -1,0 +1,74 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: rgb(217, 235, 235);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.title-imc {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(75, 75, 75);
+}
+
+.paragraph {
+  font-size: 13px;
+}
+
+.label-input-imc {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.input-button-imc {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 30%;
+}
+
+#button-calculate-imc {
+  background-color: #4aaac7;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 34%;
+  padding: 10px;
+}
+
+#button-calculate-imc:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+#paragraph-imc-result {
+  margin-top: 40px;
+}
+
+#paragraph-range-result {
+  margin-bottom: 50px;
+}
